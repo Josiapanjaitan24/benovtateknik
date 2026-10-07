@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://benovtateknik.co.id/sitemap.xml
