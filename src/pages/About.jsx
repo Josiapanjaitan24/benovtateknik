@@ -443,7 +443,7 @@ function PartnersPage() {
                   src={brandLogoSources[brand.name]}
                   alt={brand.name}
                   loading="lazy"
-                  className="max-h-11 max-w-full object-contain"
+                  className="h-full w-full max-h-11 max-w-full object-contain"
                 />
               </div>
             ))}

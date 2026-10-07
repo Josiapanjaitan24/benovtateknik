@@ -397,6 +397,7 @@ export default function Home() {
                       className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                       loading="lazy"
                       decoding="async"
+                      style={{ aspectRatio: '1.48' }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0A2540]/45 via-transparent to-transparent transition-opacity duration-300 group-hover:opacity-70" />
                     <div className="absolute bottom-4 left-4 flex h-11 w-11 items-center justify-center rounded-lg bg-white/90 text-[#0A2540] shadow-sm transition-transform duration-300 group-hover:scale-110">
@@ -457,7 +458,7 @@ export default function Home() {
                     src={brandLogoSources[bp.name]}
                     alt={bp.name}
                     loading="lazy"
-                    className="max-h-10 max-w-full object-contain"
+                    className="h-full w-full max-h-10 max-w-full object-contain"
                   />
                 </div>
               ))}

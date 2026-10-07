@@ -345,6 +345,7 @@ export default function Products() {
                                 alt={item.title}
                                 loading="lazy"
                                 className="h-full w-full object-contain p-5 transition-transform duration-500 group-hover:scale-105"
+                                style={{ aspectRatio: '1 / 1' }}
                               />
                             ) : (
                               <div className="h-full flex items-center justify-center text-slate-300">
