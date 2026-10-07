@@ -22,12 +22,12 @@ import {
 import { productCategories, coreServices, brandPartners } from '../data/products';
 import brandLogoSources from '../data/brandLogos';
 import { useLanguage } from '../context/LanguageContext';
-import equipmentSupplyImage from '../assets/images/Layanan rekayasa/Equipment Supply.jpeg';
-import installationIntegrationImage from '../assets/images/Layanan rekayasa/Installation & Integration.jpeg';
-import maintenanceSupportImage from '../assets/images/Layanan rekayasa/Maintenance Support.jpeg';
-import repairServiceImage from '../assets/images/Layanan rekayasa/Repair & Service.jpeg';
-import sparePartsSourcingImage from '../assets/images/Layanan rekayasa/Spare Parts Sourcing.jpeg';
-import technicalSupportImage from '../assets/images/Layanan rekayasa/Technical Support.jpeg';
+import equipmentSupplyImage from '../assets/images/Layanan Rekayasa/Equipment Supply.jpeg';
+import installationIntegrationImage from '../assets/images/Layanan Rekayasa/Installation & Integration.jpeg';
+import maintenanceSupportImage from '../assets/images/Layanan Rekayasa/Maintenance Support.jpeg';
+import repairServiceImage from '../assets/images/Layanan Rekayasa/Repair & Service.jpeg';
+import sparePartsSourcingImage from '../assets/images/Layanan Rekayasa/Spare Parts Sourcing.jpeg';
+import technicalSupportImage from '../assets/images/Layanan Rekayasa/Technical Support.jpeg';
 
 const categoryTranslations = {
   pumps: {
