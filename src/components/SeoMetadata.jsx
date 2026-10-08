@@ -239,16 +239,6 @@ export default function SeoMetadata() {
       }
     ];
 
-    if (product && category && !isNotFound) {
-      structuredData.push({
-        '@type': 'Product',
-        name: product.title,
-        description,
-        image: absoluteImage || undefined,
-        brand: { '@type': 'Brand', name: product.brand }
-      });
-    }
-
     if (normalizedPath === '/services') {
       structuredData.push(...coreServices.map((service) => ({
         '@type': 'Service',
