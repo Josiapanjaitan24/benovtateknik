@@ -217,7 +217,11 @@ export default function SeoMetadata() {
         email: 'sales@benovta.co.id',
         telephone: '+62-812-8864-953'
       },
-      ...(siteUrl ? { url: siteUrl.href, logo: new URL('/icon_benovta.png', siteUrl).href } : {})
+      ...(siteUrl ? {
+        url: siteUrl.href,
+        logo: new URL('/icon_benovta.png', siteUrl).href,
+        image: new URL('/icon_benovta.png', siteUrl).href
+      } : {})
     };
     const structuredData = [
       { ...organization },
