@@ -202,7 +202,6 @@ export default function Footer() {
                 <div>
                   <p className="font-semibold text-slate-300">{tx('Jam Layanan Operasional:', 'Office Hours:')}</p>
                   <p>{tx('Senin – Jumat: 08.00 – 17.00 WIB', 'Monday – Friday: 08:00 – 17:00 WIB')}</p>
-                  <p>{tx('Sabtu: 08.00 – 13.00 WIB', 'Saturday: 08:00 – 13:00 WIB')}</p>
                 </div>
               </div>
             </div>

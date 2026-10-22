@@ -162,7 +162,7 @@ ${tx('Saya ingin mengajukan permintaan penawaran harga:', 'I would like to reque
                       href="mailto:sales@benovta.co.id"
                       className="text-[#0A2540] font-bold hover:text-[#F97316] transition-colors block mt-0.5"
                     >
-                      sales@benovta.co.id
+                      btpa@benovta.co.id
                     </a>
                   </div>
                 </div>
@@ -194,8 +194,7 @@ ${tx('Saya ingin mengajukan permintaan penawaran harga:', 'I would like to reque
                   <div className="text-xs">
                     <div className="font-bold text-slate-800">{tx('Jam Layanan Kantor:', 'Office Hours:')}</div>
                     <div className="text-slate-600 mt-0.5">{tx('Senin – Jumat: 08.00 – 17.00 WIB', 'Monday – Friday: 08:00 – 17:00 WIB')}</div>
-                    <div className="text-slate-600">{tx('Sabtu: 08.00 – 13.00 WIB', 'Saturday: 08:00 – 13:00 WIB')}</div>
-                    <div className="text-slate-400">{tx('Minggu & Libur Nasional: Tutup (Darurat via WhatsApp)', 'Sunday & National Holidays: Closed (emergency via WhatsApp)')}</div>
+                    <div className="text-slate-400">{tx('Sabtu, Minggu & Libur Nasional: Tutup (Darurat via WhatsApp)', 'Sunday & National Holidays: Closed (emergency via WhatsApp)')}</div>
                   </div>
                 </div>
 
