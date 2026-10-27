@@ -178,10 +178,10 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <Mail size={16} className="text-[#F97316] shrink-0" />
                 <a
-                  href="mailto:sales@benovta.co.id"
+                  href="mailto:btpa@benovtateknik.co.id"
                   className="text-slate-300 hover:text-[#F97316] transition-colors"
                 >
-                  sales@benovta.co.id
+                  btpa@benovtateknik.co.id
                 </a>
               </div>
 

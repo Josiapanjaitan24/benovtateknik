@@ -159,10 +159,10 @@ ${tx('Saya ingin mengajukan permintaan penawaran harga:', 'I would like to reque
                   <div>
                     <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">{tx('Email Resmi Pengadaan:', 'Official Procurement Email:')}</div>
                     <a
-                      href="mailto:sales@benovta.co.id"
+                      href="mailto:btpa@benovtateknik.co.id"
                       className="text-[#0A2540] font-bold hover:text-[#F97316] transition-colors block mt-0.5"
                     >
-                      btpa@benovta.co.id
+                      btpa@benovtateknik.co.id
                     </a>
                   </div>
                 </div>
